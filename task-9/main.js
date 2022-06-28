@@ -8,7 +8,7 @@ prompt.get("input", function (err, result) {
   var arr = input_data[1].split(" "); // Daxil edilmiş massiv. Nümunə - ['3', '5', '6', '8', '9']
   let arr2 = [];
 
-  for (i = arr.length - 1; i > +0; i--) {
+  for (i = arr.length - 1; i >=0; i--) {
     arr2.push(arr[i]);
   }
   console.log(arr2);
